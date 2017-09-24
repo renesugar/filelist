@@ -1,9 +1,9 @@
-####About
+# About
 filelist recursively walks through all files and subfolders of a specified
     directory to create a list of files with specified extensions. Directories
     to be excluded can be specified.
 
-####Usage
+# Usage
 ```
 Usage: ./filelist.py [FLAGS]
     --path:       Base path of the project to be scanned (Default: .)

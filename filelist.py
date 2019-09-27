@@ -1,5 +1,4 @@
-#!/usr/bin/python
-import regex
+import re
 import os
 import argparse
 import sys
@@ -92,7 +91,7 @@ def main():
 
   files = filelist(basePath, excludePaths, fileExtensions)
 
-  print '\n'.join(files)
+  print('\n'.join(files))
 
 
 if __name__ == "__main__":
